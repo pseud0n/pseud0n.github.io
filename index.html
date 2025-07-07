@@ -35,6 +35,16 @@
                   <button type="button" data-bs-target="#carousel-{{../id}}" data-bs-slide-to="{{@index}}" class="{{#if @first}}active{{/if}}"></button>
                   {{/each}}
                </div>
+
+               <button class="carousel-control-prev {{#if (eq 1 images.length)}}d-none{{/if}}" type="button" data-bs-target="#carousel-{{id}}" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+
+               <button class="carousel-control-next {{#if (eq 1 images.length)}}d-none{{/if}}" type="button" data-bs-target="#carousel-{{id}}" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
             </div>
             <div class="box-text-box">
                <p class="box-time-text">{{time}}</p>

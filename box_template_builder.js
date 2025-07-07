@@ -1,10 +1,16 @@
 $(() => {
     const boxes = [
         {
-            title: "Smartphone/MCU Gesture Recognition (Uni project)",
+            title: "Smartphone/MCU Gesture Recognition (Uni Project)",
             time: "2025",
             body: "In this project I made a mobile app with Flutter, which connected over BLE to an Arduino recognising gestures through accelerometers.",
             images: ["muc-3.png", "muc-1.png", "muc-2.png"]
+        },
+        {
+            title: "RPN Calculator Android App",
+            time: "2024",
+            body: "I made this to practise Kotlin & Jetpack Compose. Uses postfix instead of infix & variables.",
+            images: ["rpn.png"]
         },
         {
             title: "LabVIEW TCP Comms",
@@ -25,16 +31,16 @@ $(() => {
             images: ["wordle-1.png", "wordle-2.png", "wordle-3.png"]
         },
         {
+            title: "Ambidextrous Ergonomic Trackpad Mouse Design",
+            time: "2020-",
+            body: "Designing and prototyping an ergonomic trackball-inspired trackpad mouse, which uses the palms for left and right buttons and doesn't require wrist movement or thumb usage. Designed with Blender & FreeCAD, and on hold until I get a 3D printer. It should be able to use any combination of buttons while moving the cursor, unlike many modern trackballs.",
+            images: ["touchmouse-1.png", "touchmouse-2.png", "touchmouse-3.png", "touchmouse-4.jpg", "touchmouse-5.png"]
+        },
+        {
             title: "3D Animations for Tutoring (S.A. & Volume of a Prism)",
             time: "2020",
             body: "Experimenting with 3D animation to help in teaching.",
             images: ["tut-3d-1.png", "tut-3d-2.png", "tut-3d-3.png", "tut-3d-4.png", "tut-3d-5.png"]
-        },
-        {
-            title: "3D Animations for Tutoring (S.A. & Volume of a Compound Solid)",
-            time: "2019",
-            body: "Experimenting with 3D animation to help in teaching.",
-            images: ["tut-3d-6.png", "tut-3d-7.png", "tut-3d-8.png"]
         },
         {
             title: "Advert Animations For a Local Company",
@@ -53,6 +59,12 @@ $(() => {
             time: "2020",
             body: "I wanted to learn NixOS (a non-FHS immutable Linux distro), and the Nix ecosystem. It was a steep learning curve but I ended up learning a lot about Linux along the way, and contributing to the official nixpkgs repo.",
             images: ["nixos.jpg"]
+        },
+        {
+            title: "3D Animations for Tutoring (S.A. & Volume of a Compound Solid)",
+            time: "2019",
+            body: "Experimenting with 3D animation to help in teaching.",
+            images: ["tut-3d-6.png", "tut-3d-7.png", "tut-3d-8.png"]
         },
         {
             title: "Music App & Sound Tech",
@@ -76,7 +88,7 @@ $(() => {
             title: "Cipher Challenge",
             time: "2016-2019",
             body: "The cipher challenge requires you to write code to crack ciphers. I mostly worked on a visual transposition solver & substituion solver, which allowed entering known words to match in the ciphertext. I started in Scratch and moved to Python.",
-            images: ["columnar.png","freq-analysis.png"]
+            images: ["columnar.png","freq-analysis-2.png"]
         },
     ];
 
