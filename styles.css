@@ -5,12 +5,17 @@ body {
 
 .box {
    border: 5px solid white;
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.2);
    padding: 20px;
    text-align: center;
    min-height: 800px;
    border-radius: 10px;
 }
+
+.box:hover {
+    border-color: orange;
+}
+
 .box img {
    max-width: 100%;
    height: 300px;
@@ -28,10 +33,13 @@ body {
 }
 
 .carousel-control-prev, .carousel-control-next {
-    bottom: -330px;
+    bottom: -370px;
     transform: none;
 }
-
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 8rem;
+  height: 8rem;
+}
 .carousel {
     flex: 1;
 }

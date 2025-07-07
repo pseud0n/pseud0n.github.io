@@ -1,6 +1,12 @@
 $(() => {
     const boxes = [
         {
+            title: "University Final Year Project",
+            time: "2025",
+            body: "This project aimed to speed up the process of hyperparameter optimisiation and neural architecture search when training on a simple FNN, instead of treating the full run of training as a single input/output function, but monitoring, improving & rolling back checkpoints during the training process.",
+            images: ["fyp-3.png", "fyp-1.png", "fyp-2.png", "fyp-4.png"]
+        },
+        {
             title: "Smartphone/MCU Gesture Recognition (Uni Project)",
             time: "2025",
             body: "In this project I made a mobile app with Flutter, which connected over BLE to an Arduino recognising gestures through accelerometers.",
@@ -15,8 +21,8 @@ $(() => {
         {
             title: "LabVIEW TCP Comms",
             time: "2024",
-            body: "LabVIEW is a graphical flow programming 'language' for National Instruments cards. The program communicated and monitors a bidirectional TCP setup.",
-            images: ["placeholder.png"]
+            body: "LabVIEW is a graphical flow programming 'language' for National Instruments cards. The program communicates and monitors a bidirectional TCP setup.",
+            images: ["labview.jpg"]
         },
         {
             title: "Live Coding & Exam Walkthroughs (Tutoring)",
@@ -52,7 +58,7 @@ $(() => {
             title: "A-Level Project",
             time: "2020",
             body: "I learnt C++ for this. I learnt about parsing & lexing with Bison/Flex. This was my first attempt focusing on time/space optimisation. Ambitious project to make an interpreted programming language based off of classes & metaclasses, and reimagining all statements as expressions (including class definitions, which are instances of metaclasses). Adjacency is now a binary operator, which allows chaining of objects & code blocks.",
-            images: ["placeholder.png"]
+            images: ["nea-1.png", "nea-2.png", "nea-3.png"]
         },
         {
             title: "NixOS",
