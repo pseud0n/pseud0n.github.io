@@ -4,7 +4,7 @@ $(() => {
             title: "University Final Year Project",
             time: "2025",
             body: "This project aimed to speed up the process of hyperparameter optimisiation and neural architecture search when training on a simple FNN, instead of treating the full run of training as a single input/output function, but monitoring, improving & rolling back checkpoints during the training process.",
-            images: ["fyp-3.png", "fyp-1.png", "fyp-2.png", "fyp-4.png"]
+            images: ["fyp-3.png", "fyp-1.png", "fyp-2.png", "fyp-4.png", "fyp-5.png"]
         },
         {
             title: "Smartphone/MCU Gesture Recognition (Uni Project)",
